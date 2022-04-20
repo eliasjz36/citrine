@@ -12,7 +12,7 @@ const Navbar = () => {
   return (
     <nav className="flex w-full items-center justify-between p-4 md:justify-center">
       <div className="flex-initial items-center justify-center md:flex-[0.5]">
-        <a href="#" className="flex">
+        <a href="#" className="flex max-w-fit">
           <Image
             src="/images/logo.svg"
             alt="citrine logo"
